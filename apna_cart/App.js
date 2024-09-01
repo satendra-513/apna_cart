@@ -4,13 +4,13 @@ import "./App.css";
 import Navbar from "./components/Navbar.js";
 import ProductList from "./components/ProductList.js";
 import Footer from "./components/Footer.js";
-// import AddItem from "./components/AddItem.js";
+import AddItem from "./components/AddItem.js";
 
 function App() {
   const products = [
     {
       price: 99999,
-      // name: "IPhone 10S Max",
+      name: "IPhone 10S Max",
       quantity: 0,
     },
     {
